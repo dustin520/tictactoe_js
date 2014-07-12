@@ -19,16 +19,15 @@ var count = 0;
 // Functions
 var click = function(event) {
 	event.onclick = function() {
-		if(event.innerHTML === ""){
+		if(this.innerHTML === ""){
 			if(count % 2 === 0){
-				event.innerHTML = "X";
-				event.style.color = "red";
+				this.innerHTML = "X";
+				this.style.color = "red";
 				count++;
 				// check winner
-				if 
 			}else {
-				event.innerHTML = "O"; 
-				event.style.color = "blue";
+				this.innerHTML = "O"; 
+				this.style.color = "blue";
 				count++;
 		}
 	}else{
@@ -51,43 +50,5 @@ var reset = function(event) {
 	}
 }
 
-reset(); 
 
-// // Event Handlers 
-// topL.onclick = function() { 
-// 	topL.innerHTML = "X"; 
-// }
 
-// topC.onclick = function() { 
-// 	topC.innerHTML = "X"; 
-// }
-
-// topR.onclick = function() { 
-// 	topR.innerHTML = "X"; 
-// }
-
-// midL.onclick = function() { 
-// 	midL.innerHTML = "X"; 
-// }
-
-// midC.onclick = function() { 
-// 	midC.innerHTML = "X"; 
-// }
-
-// midR.onclick = function() { 
-// 	midR.innerHTML = "X"; 
-// }
-
-// botL.onclick = function() { 
-// 	botL.innerHTML = "X"; 
-// }
-
-// botC.onclick = function() { 
-// 	botC.innerHTML = "X"; 
-// }
-
-// botR.onclick = function() { 
-// 	botR.innerHTML = "X"; 
-// }
-
-}
