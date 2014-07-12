@@ -16,7 +16,7 @@ var clear = document.getElementById('resetButton');
 
 var count = 0;
 
-// Functions
+// Functions and Event Handler
 var click = function(event) {
 	event.onclick = function() {
 		if(this.innerHTML === ""){
@@ -50,5 +50,6 @@ var reset = function(event) {
 	}
 }
 
+reset(); 
 
-
+}
