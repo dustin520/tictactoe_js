@@ -1,0 +1,40 @@
+#container {
+background: lightblue;
+width: 300px;
+margin:40px auto 40px auto;
+border: 2px solid;
+  border-color: black;
+  overflow:hidden;
+  }
+.row{
+height:100px;
+width:300px;
+}
+.square{
+height:98px;
+width:98px;
+border:1px solid black;
+float:left;
+font-size: 5em;
+text-align: center;
+}
+.square:hover{
+cursor:pointer;
+background-color:lightgrey;
+}
+
+h1{
+font-size:2em;
+text-align:center;
+margin-top:50px;
+
+}
+#reset{
+float:bottom;
+margin:0 auto;
+text-align:center;
+}
+#resetButton:hover{
+cursor:pointer;
+
+}

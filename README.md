@@ -26,7 +26,15 @@ Today we will be making a Tic Tac Toe game using all of this.
 * After the necessary moves have been played, stop game and alert the winner if one player ends up winning with three in a row.
 	* Hint: Determine a set of winning combinations. Check those combinations on the board contents after every move.
 
-
+WINNING COMBOS - 
+123
+456
+789
+147
+258
+369
+159
+357
 
 ##Resources
 * [DOM Event Notes](https://github.com/wdi-sf-july/notes/tree/master/week_01_programming_fundamentals_with_the_web/day_4_html_css_dom_events/dusk_dom_events)
